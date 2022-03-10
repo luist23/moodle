@@ -18,7 +18,7 @@ $CFG->dboptions = array (
 );
 
 $CFG->wwwroot   = 'try /tmp';
-$CFG->dataroot  = 'http://moodletheme.herokuapp.com, http not https';
+$CFG->dataroot  = 'https://moodletheme.herokuapp.com/';
 $CFG->admin     = 'admin';
 
 $CFG->directorypermissions = 0777;
