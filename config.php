@@ -17,8 +17,8 @@ $CFG->dboptions = array (
   'dbsocket' => '',
 );
 
-$CFG->wwwroot   = getenv('WWWROOT');
-$CFG->dataroot  = getenv('DATAROOT');
+$CFG->wwwroot   = getenv('try /tmp');
+$CFG->dataroot  = getenv('http://moodletheme.herokuapp.com, http not https');
 $CFG->admin     = 'admin';
 
 $CFG->directorypermissions = 0777;
