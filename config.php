@@ -4,12 +4,12 @@ unset($CFG);
 global $CFG;
 $CFG = new stdClass();
 
-$CFG->dbtype    = getenv('pgsql');
+$CFG->dbtype    = 'pgsql';
 $CFG->dblibrary = 'native';
-$CFG->dbhost    = getenv('ec2-52-70-186-184.compute-1.amazonaws.com');
-$CFG->dbname    = getenv('d3hg1b60shlj9m');
-$CFG->dbuser    = getenv('fzemllrgwdehuh');
-$CFG->dbpass    = getenv('474f465875cd57b4a5b4ed40bd80d56a20f72cc479f219ac9972311309fc601f');
+$CFG->dbhost    = 'ec2-52-70-186-184.compute-1.amazonaws.com';
+$CFG->dbname    = 'd3hg1b60shlj9m';
+$CFG->dbuser    = 'fzemllrgwdehuh';
+$CFG->dbpass    = '474f465875cd57b4a5b4ed40bd80d56a20f72cc479f219ac9972311309fc601f';
 $CFG->prefix    = 'mdl_';
 $CFG->dboptions = array (
   'dbpersist' => 0,
@@ -17,8 +17,8 @@ $CFG->dboptions = array (
   'dbsocket' => '',
 );
 
-$CFG->wwwroot   = getenv('try /tmp');
-$CFG->dataroot  = getenv('http://moodletheme.herokuapp.com, http not https');
+$CFG->wwwroot   = 'try /tmp';
+$CFG->dataroot  = 'http://moodletheme.herokuapp.com, http not https';
 $CFG->admin     = 'admin';
 
 $CFG->directorypermissions = 0777;
