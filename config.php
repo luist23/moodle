@@ -17,7 +17,7 @@ $CFG->dboptions = array (
   'dbsocket' => '',
 );
 
-$CFG->wwwroot   = 'https://moodletheme.herokuapp.com/';
+$CFG->wwwroot   = 'https://moodletheme.herokuapp.com/, http not https';
 $CFG->dataroot  = 'try /tmp';
 $CFG->admin     = 'admin';
 
